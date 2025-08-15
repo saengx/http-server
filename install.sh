@@ -10,14 +10,15 @@ npm install http-server -g
 chmod +x run-node
 chmod +x edit-miner
 chmod +x start.json
+chmod +x set-start
 
 mv run-node /data/data/com.termux/files/usr/bin
 mv edit-miner /data/data/com.termux/files/usr/bin
+mv set-start /data/data/com.termux/files/usr/bin
 
 cd /data/data/com.termux/files/usr/bin
 
-chmod +x run-node
-chmod +x edit-miner
+
 
 cd && cd /data/data/com.termux/files/usr/etc
 nano bash.bashrc
