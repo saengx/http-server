@@ -17,9 +17,6 @@ pkg install git -y
 ```
 
 ```
-cd storage/downloads
-```
-```
 git clone https://github.com/pichetx/https-server
 ```
 ```
