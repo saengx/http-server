@@ -20,7 +20,7 @@ pkg install git -y
 git clone https://github.com/saengx/http-server
 ```
 ```
-cd https-server
+cd http-server
 ```
 
 ```
