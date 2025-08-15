@@ -13,7 +13,7 @@ chmod +x start
 
 mv run-node /data/data/com.termux/files/usr/bin
 mv edit-miner /data/data/com.termux/files/usr/bin
-mv start /data/data/com.termux/files/usr/bin
+#mv start /data/data/com.termux/files/usr/bin
 
 cd /data/data/com.termux/files/usr/bin
 
