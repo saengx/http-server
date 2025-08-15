@@ -1,7 +1,6 @@
 #!/bin/bash
 
 cd
-cd storage/downloads
 cd https-server
 clear
 sh https-server.sh
