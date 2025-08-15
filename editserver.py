@@ -19,12 +19,12 @@ def setminer():
     try:
         print("ตัวอย่าง:")
         print(" \033[93mstratum+tcp://ap.luckpool.net:3956\033[00m")
-        print(" \033[93mstratum+tcp://verushash.asia.mine.zergpool.com:3300\033[00m")
+        print(" \033[93mstratum+tcp://sg.vipor.net:5040\033[00m")
         pool = input(" pool : ")
         print("\033[35m-----------------------------------------\033[0m")
         
       
-        print("ตัวอย่าง: \033[93mRKh6cinBtWFspyBfK6Xsu8JKJsFyfYmUCr\033[00m")
+        print("ตัวอย่าง: \033[93mR9jwT463w97NyLFcmBrthhnhJVQgMjSU3d\033[00m")
         print("        \033[93mDCYiQottcGcnmzkp9KqqJwowc3ifEZUxm1\033[00m")
         wallet = input("wallet: ")
         print("\033[35m-----------------------------------------\033[0m")
@@ -85,6 +85,7 @@ while True:
         print("\033[0m\n")
         print("\033[31mโปรดตรวจสอบการตั้งค่า ถ้าถูกต้อง ให้ใช้คำสั่ง\033[0m  \033[35mrun-node\033[0m  \033[31mหรือ\033[0m \033[35medit-miner\033[0m \033[31mเพื่อแก้ไข\033[0m")
     break
+
 
 
 
