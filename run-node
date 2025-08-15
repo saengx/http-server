@@ -3,4 +3,4 @@
 cd
 cd http-server
 clear
-sh https-server.sh
+sh http-server.sh
