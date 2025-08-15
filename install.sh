@@ -5,15 +5,14 @@ apt-get upgrade -y
 apt install python3 -y
 apt install figlet -y
 apt install nodejs -y
-npm install https-server -g
+npm install http-server -g
 
 chmod +x run-node
 chmod +x edit-miner
-chmod +x start
+chmod +x start.json
 
 mv run-node /data/data/com.termux/files/usr/bin
 mv edit-miner /data/data/com.termux/files/usr/bin
-#mv start /data/data/com.termux/files/usr/bin
 
 cd /data/data/com.termux/files/usr/bin
 
