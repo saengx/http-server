@@ -2,4 +2,4 @@
 
 cd
 cd http-server
-nano start
+nano start.json
