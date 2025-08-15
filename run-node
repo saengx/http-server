@@ -1,6 +1,6 @@
 #!/bin/bash
 
 cd
-cd https-server
+cd http-server
 clear
 sh https-server.sh
