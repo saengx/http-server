@@ -5,7 +5,7 @@ apt-get upgrade -y
 apt install python3 -y
 apt install figlet -y
 apt install nodejs -y
-npm install http-server -g
+npm install https-server -g
 
 chmod +x run-node
 chmod +x edit-miner
