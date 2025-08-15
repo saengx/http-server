@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cd
-cd https-server
+cd http-server
 python3 editserver.py
