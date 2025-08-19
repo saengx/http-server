@@ -4,8 +4,6 @@ from editserver import banner
 
 def runserver():
  try:       
-
-   banner()
      with open("online.json",encoding="utf-8") as set:
         load = set.read()
         loads = json.loads(load)
