@@ -19,3 +19,9 @@ def runserver():
         print("WALLET=",wallet)
         print("PASS  =",password)
         print("\033[0m\n")
+
+while True:
+    banner()
+    runserver()
+    
+    break
