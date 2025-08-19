@@ -19,9 +19,14 @@ def runserver():
         print("WALLET=",wallet)
         print("PASS  =",password)
         print("\033[0m\n")
+   except:
+        os.system("@cls||clear")
+        print("เกิดข้อผิดพลาดโปรดตั้งค่าใหม่!")
+        time.sleep(3)
+        os.system("python3 editserver.py")
 
 while True:
     banner()
     runserver()
-    
+    os.system("sh http-server.sh")
     break
