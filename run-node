@@ -3,4 +3,4 @@
 cd
 cd http-server
 clear
-sh http-server.sh
+python3 runserver.py
