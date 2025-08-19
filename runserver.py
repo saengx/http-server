@@ -19,7 +19,7 @@ def runserver():
         print("WALLET=",wallet)
         print("PASS  =",password)
         print("\033[0m\n")
-     except:
+ except:
         os.system("@cls||clear")
         print("เกิดข้อผิดพลาดโปรดตั้งค่าใหม่!")
         time.sleep(3)
