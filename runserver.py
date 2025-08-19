@@ -1,11 +1,11 @@
 import os, time, json
+from editserver import banner()
 
 
-
-def banner():
+def runserver():
  try:       
 
-
+   banner()
     with open("online.json",encoding="utf-8") as set:
         load = set.read()
         loads = json.loads(load)
