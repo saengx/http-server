@@ -2,9 +2,8 @@ import os, time, json
 
 
 
-
 def banner():
-        
+ try:       
 
 
     with open("online.json",encoding="utf-8") as set:
